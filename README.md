@@ -15,6 +15,8 @@ gerado é **JavaScript/Node.js** válido e independente.
 Projeto da disciplina de **Compiladores** — recria a cena real do episódio
 *"O Dinheiro Perdido"* (1978) com os 5 personagens do episódio.
 
+**Grupo:** Paulo Mário Valente Bumba · Alexandre Ribeiro · Leonardo Zonta
+
 ---
 
 ## Funcionalidades

@@ -2,6 +2,8 @@
 
 **Trabalho de Compiladores — "Do Meme ao Código"**
 
+**Grupo:** Paulo Mário Valente Bumba · Alexandre Ribeiro · Leonardo Zonta
+
 ## 1. Nome e meme escolhido
 
 **ChavScript** — linguagem inspirada em **Chaves (El Chavo del Ocho)**, o

@@ -1,6 +1,7 @@
 # ChavScript — Documentação Oficial da Linguagem
 
 **Versão 1.0** — Trabalho de Compiladores, "Do Meme ao Código"
+**Grupo:** Paulo Mário Valente Bumba · Alexandre Ribeiro · Leonardo Zonta
 **Linguagem de destino:** JavaScript (Node.js)
 **Documento de referência:** tokens, gramática, semântica e exemplos.
 
