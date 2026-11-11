@@ -3,6 +3,26 @@
 Mapa completo de onde cada exigência do trabalho está implementada e como
 comprovar. Use este documento na apresentação e na entrega.
 
+## Condições de conclusão — STATUS: TODAS ATENDIDAS ✅
+
+| # | Condição de conclusão | Status | Evidência |
+|---|---|---|---|
+| 1 | Linguagem inspirada em meme, sintaxe própria | ✅ | Chaves — toda a linguagem é temática da Vila |
+| 2 | Tradutor → linguagem convencional | ✅ | `js/codegen.js` gera JavaScript/Node.js executável |
+| 3 | Análise léxica | ✅ | `js/lexer.js` + `erro_4_lexico.chav` |
+| 4 | Gramática formal + análise sintática | ✅ | EBNF na spec + `js/parser.js` (AST) |
+| 5 | Análise semântica | ✅ | `js/semantica.js` — símbolos, tipos, elenco |
+| 6 | Erros léxicos/sintáticos/semânticos com mensagem | ✅ | `erro_1..4` — cada fase com linha |
+| 7 | 10 requisitos mínimos da linguagem | ✅ | tabela §3 abaixo — todos mapeados |
+| 8 | ≥3 programas válidos (1 c/ entrada+decisão+repetição) | ✅ | 4 válidos; `02` e `04` cobrem o exigido |
+| 9 | ≥3 exemplos de erro | ✅ | 4 exemplos de erro |
+| 10 | Documento de especificação | ✅ | `especificacao.pdf` / `ESPECIFICACAO.md` |
+| 11 | Código-fonte organizado + instruções | ✅ | `js/` modular + `README.md` |
+| 12 | Evidências de funcionamento | ✅ | `testes/saida/*.js` executados no Node |
+| 13 | Apresentação | ✅ | `slides.pdf` + estúdio online no GitHub Pages |
+
+**Veredito:** o projeto atende a todas as condições de conclusão do enunciado.
+
 ## 1. Contextualização e objetivo
 
 - **Meme escolhido:** Chaves — O Show do Chaves (*El Chavo del Ocho*, Chespirito)
