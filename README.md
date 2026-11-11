@@ -158,8 +158,13 @@ for(let __i=0;__i<(SOCOS);__i++){
   decisão: justificativa por exigência, roteiro de defesa na apresentação
 - [`ESPECIFICACAO.md`](ESPECIFICACAO.md) — linguagem completa: comandos, tipos,
   gramática EBNF, tokens, erros e a cena real
+- [`docs/LINGUAGEM.md`](docs/LINGUAGEM.md) — **documentação oficial da
+  linguagem**: referência formal com tokens, gramática EBNF, semântica,
+  catálogo de erros e exemplos
 - [`docs/ARQUITETURA.md`](docs/ARQUITETURA.md) — como o tradutor funciona por
   dentro: cada fase, a AST, o interpretador e o gerador de código
+- [`docs/COLA.md`](docs/COLA.md) — guia rápido para a apresentação
+- [`docs/ROTEIRO_VIDEO.md`](docs/ROTEIRO_VIDEO.md) — roteiro cronometrado da demo
 - [`especificacao.pdf`](especificacao.pdf) — documento técnico para impressão
 - [`slides.pdf`](slides.pdf) — apresentação do projeto
 - [`apresentacao.pdf`](apresentacao.pdf) — guia da demonstração
