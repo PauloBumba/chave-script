@@ -154,6 +154,8 @@ for(let __i=0;__i<(SOCOS);__i++){
 
 - [`docs/CONFORMIDADE.md`](docs/CONFORMIDADE.md) — **mapa completo**: cada
   exigência do enunciado → onde está implementada → como comprovar
+- [`docs/JUSTIFICATIVA.md`](docs/JUSTIFICATIVA.md) — **o porquê** de cada
+  decisão: justificativa por exigência, roteiro de defesa na apresentação
 - [`ESPECIFICACAO.md`](ESPECIFICACAO.md) — linguagem completa: comandos, tipos,
   gramática EBNF, tokens, erros e a cena real
 - [`docs/ARQUITETURA.md`](docs/ARQUITETURA.md) — como o tradutor funciona por
