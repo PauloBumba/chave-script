@@ -1,0 +1,9 @@
+// Programa válido 1 — conversa automática (diálogo gerado pelo motor)
+VILA COMEÇA
+
+CONVERSA ENTRE CHAVES E SEU_MADRUGA
+  ASSUNTO "dinheiro"
+  ESTILO ENGRAÇADO
+CENA TERMINA
+
+VILA TERMINA

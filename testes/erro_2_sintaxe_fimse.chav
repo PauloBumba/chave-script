@@ -1,0 +1,10 @@
+// Erro 2 — bloco SE sem FIMSE (erro sintático)
+VILA COMEÇA
+
+CONVERSA ENTRE CHAVES E QUICO
+  NUMERO n = 1
+  SE n MAIOR 0
+    CHAVES DIZ "Oi"
+CENA TERMINA
+
+VILA TERMINA

@@ -1,0 +1,29 @@
+// Programa válido 3 — aritmética, concatenação e blocos aninhados
+VILA COMEÇA
+
+CONVERSA ENTRE CHAVES E SEU_MADRUGA
+  NUMERO preço = 10
+  NUMERO qtd = 3
+  NUMERO taxa = 5
+  NUMERO total = (preço * qtd) + taxa
+  TEXTO msg = "Total da compra: " + total
+  CHAVES ENTRA
+  SEU_MADRUGA ENTRA
+  CHAVES DIZ msg
+  SE total MAIOR 30
+    SEU_MADRUGA RESPONDE "Caro demais para o meu bolso!"
+  SENÃO
+    SEU_MADRUGA RESPONDE "Preço justo, meu amigo."
+  FIMSE
+  REPETE 2 VEZES
+    NUMERO metade = total / 2
+    CHAVES GRITA "Cada um paga " + metade
+    SE metade MENOR 20
+      SEU_MADRUGA PENSA "Dá para pagar... acho."
+    FIMSE
+  FIM
+  CHAVES SAI
+  SEU_MADRUGA SAI
+CENA TERMINA
+
+VILA TERMINA

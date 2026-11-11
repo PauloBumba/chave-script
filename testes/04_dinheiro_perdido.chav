@@ -1,0 +1,49 @@
+// Cena REAL: "O Dinheiro Perdido" (Chaves, 1978 — SBT/HBO Max)
+// Todos os personagens do episódio: Chaves, Chiquinha, Quico,
+// Seu Madruga e Sr. Barriga. Falas adaptadas da dublagem oficial.
+VILA COMEÇA
+
+CONVERSA ENTRE CHAVES E CHIQUINHA E QUICO E SEU_MADRUGA E SR_BARRIGA
+  NUMERO socos = 4
+  TEXTO lugar = ""
+  CHAVES ENTRA
+  CHIQUINHA ENTRA
+  QUICO ENTRA
+  SEU_MADRUGA ENTRA
+  SR_BARRIGA ENTRA
+  SR_BARRIGA DIZ "Eu avisei que se não pagasse todo o aluguel atrasado, eu despejaria o senhor!"
+  SEU_MADRUGA RESPONDE "Mas eu já tenho o dinheiro?"
+  SR_BARRIGA RESPONDE "Ah é? Então dá!"
+  SEU_MADRUGA DIZ "Está ali dentro, venha. Vamos entrar."
+  CHAVES DIZ "Chiquinha, Chiquinha! Olha, isso aqui é igualzinho ao que você tem na sua casa!"
+  CHIQUINHA RESPONDE "São os móveis da minha casa, Chaves!"
+  QUICO GRITA "Não são iguaizinhos! São os móveis da Chiquinha!"
+  SEU_MADRUGA DIZ "Eu não sei o que aconteceu... eu juro que tinha o dinheiro dentro de um envelope!"
+  SR_BARRIGA DIZ "Um envelope com o dinheiro do aluguel, claro!"
+  CHAVES PERGUNTA "Onde o senhor viu o dinheiro pela última vez?" EM lugar
+  SE lugar IGUAL "bolso"
+    CHAVES DIZ "Encontrei! Cem reais aqui no bolso!"
+    SEU_MADRUGA GRITA "O que te interessa?! Mas o dinheiro é meu, hein?"
+    CHAVES RESPONDE "Foi sem querer querendo..."
+    SEU_MADRUGA GRITA "E agora eu vou te bater por querer querendo!"
+    REPETE socos VEZES
+      SEU_MADRUGA DIZ "Direita! Esquerda! Outra direita!"
+      CHAVES RESPONDE "Ai! Ai! Ai!"
+    FIM
+    CHAVES DIZ "Não me aconteceu nada... estou perfeitamente bem!"
+    SR_BARRIGA PENSA "Esse rapaz anda achando dinheiro por aí..."
+  SENÃO
+    CHAVES DIZ "Não encontrei dinheiro nenhum, juro!"
+    SEU_MADRUGA DIZ "Então procure de novo..."
+  FIMSE
+  CHAVES DIZ "Será que não está aqui atrás do barril?"
+  CHIQUINHA DIZ "Dentro do roupeiro, Chaves!"
+  CHAVES PENSA "Achei! O envelope estava dentro do roupeiro!"
+  SEU_MADRUGA DIZ "Tomei um susto tão grande que até paguei!"
+  SR_BARRIGA RESPONDE "Muito bem, Seu Madruga! Agora sim!"
+  CHAVES GRITA "O dinheiro era seu, seu Madruga!"
+  SEU_MADRUGA SAI
+  SR_BARRIGA SAI
+CENA TERMINA
+
+VILA TERMINA

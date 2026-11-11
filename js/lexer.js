@@ -1,0 +1,2 @@
+/* 1. Lexer */
+function lex(src){const T=[],E=[];src.split('\n').forEach((l,i)=>{l=l.replace(/\/\/.*$/,'');const re=/"([^"]*)"|([A-Za-zÀ-ÿ_][A-Za-zÀ-ÿ_0-9]*)|(\d+)|([=+\-*/()])|(\s+)|(.)/g;let m;while(m=re.exec(l)){if(m[1]!==undefined)T.push({t:'STR',v:m[1],l:i+1});else if(m[2]){const v=norm(m[2]);T.push({t:KWS.has(v)?'KW':'ID',v,l:i+1})}else if(m[3])T.push({t:'NUM',v:+m[3],l:i+1});else if(m[4])T.push({t:'SYM',v:m[4],l:i+1});else if(!m[5])E.push('Linha '+(i+1)+': símbolo inválido '+m[6])}});return{T,E}}

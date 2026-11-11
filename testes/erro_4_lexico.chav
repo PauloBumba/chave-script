@@ -1,0 +1,8 @@
+// Erro 4 — símbolo inválido no lexer (@)
+VILA COMEÇA
+
+CONVERSA ENTRE CHAVES E QUICO
+  CHAVES DIZ "Oi" @ QUICO
+CENA TERMINA
+
+VILA TERMINA

@@ -1,0 +1,9 @@
+// Erro 1 — personagem inexistente (erro semântico)
+VILA COMEÇA
+
+CONVERSA ENTRE CHAVES2 E QUICO
+  ASSUNTO "escola"
+  ESTILO ENGRAÇADO
+CENA TERMINA
+
+VILA TERMINA

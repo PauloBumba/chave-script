@@ -1,0 +1,10 @@
+// Erro 3 — variável não declarada e tipo incompatível (erros semânticos)
+VILA COMEÇA
+
+CONVERSA ENTRE CHAVES E QUICO
+  TEXTO nome = "Chaves"
+  NUMERO x = nome - 2
+  CHAVES DIZ sobrenome
+CENA TERMINA
+
+VILA TERMINA

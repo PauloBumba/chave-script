@@ -1,0 +1,33 @@
+// Programa válido 2 — entrada de dados, decisões e repetições
+VILA COMEÇA
+
+CONVERSA ENTRE CHAVES E QUICO
+  NUMERO idade = 0
+  NUMERO moedas = 0
+  TEXTO nome = ""
+  CHAVES ENTRA
+  QUICO ENTRA
+  CHAVES PERGUNTA "Quantos anos o senhor tem?" EM idade
+  QUICO PERGUNTA "E o seu nome, criatura?" EM nome
+  CHAVES DIZ "Prazer, " + nome + "!"
+  NUMERO dobro = idade * 2
+  SE idade MAIOR 17
+    CHAVES DIZ "Adulto! Dobro da idade: " + dobro
+  SENÃO
+    CHAVES GRITA "MENOR DE IDADE! Volta pra escola!"
+  FIMSE
+  QUICO PERGUNTA "Quantas moedas o Chaves te deve?" EM moedas
+  REPETE moedas VEZES
+    CHAVES GRITA "Me paga!"
+    QUICO RESPONDE "Não tenho!"
+  FIM
+  SE moedas DIFERENTE 0
+    QUICO PENSA "Quem deve, paga... um dia."
+  SENÃO
+    QUICO DIZ "Que alívio, estou quito."
+  FIMSE
+  CHAVES SAI
+  QUICO SAI
+CENA TERMINA
+
+VILA TERMINA
